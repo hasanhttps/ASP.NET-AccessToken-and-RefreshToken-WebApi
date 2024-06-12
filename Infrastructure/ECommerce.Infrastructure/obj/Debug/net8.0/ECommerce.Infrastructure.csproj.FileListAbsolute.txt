@@ -1,0 +1,51 @@
+C:\Users\atamoghlanov_j\Desktop\ECommerce\Infrastructure\ECommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Infrastructure.deps.json
+C:\Users\atamoghlanov_j\Desktop\ECommerce\Infrastructure\ECommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Infrastructure.dll
+C:\Users\atamoghlanov_j\Desktop\ECommerce\Infrastructure\ECommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Infrastructure.pdb
+C:\Users\atamoghlanov_j\Desktop\ECommerce\Infrastructure\ECommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Application.dll
+C:\Users\atamoghlanov_j\Desktop\ECommerce\Infrastructure\ECommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Domain.dll
+C:\Users\atamoghlanov_j\Desktop\ECommerce\Infrastructure\ECommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Application.pdb
+C:\Users\atamoghlanov_j\Desktop\ECommerce\Infrastructure\ECommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Domain.pdb
+C:\Users\atamoghlanov_j\Desktop\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\atamoghlanov_j\Desktop\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atamoghlanov_j\Desktop\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\atamoghlanov_j\Desktop\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.AssemblyInfo.cs
+C:\Users\atamoghlanov_j\Desktop\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\atamoghlanov_j\Desktop\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerc.B0B31267.Up2Date
+C:\Users\atamoghlanov_j\Desktop\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.dll
+C:\Users\atamoghlanov_j\Desktop\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\refint\ECommerce.Infrastructure.dll
+C:\Users\atamoghlanov_j\Desktop\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.pdb
+C:\Users\atamoghlanov_j\Desktop\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ref\ECommerce.Infrastructure.dll
+C:\Users\atamoghlanov_j\Desktop\Lesson 17. CQRS and MediatR\ECommerce\Infrastructure\ECommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Infrastructure.deps.json
+C:\Users\atamoghlanov_j\Desktop\Lesson 17. CQRS and MediatR\ECommerce\Infrastructure\ECommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Infrastructure.dll
+C:\Users\atamoghlanov_j\Desktop\Lesson 17. CQRS and MediatR\ECommerce\Infrastructure\ECommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Infrastructure.pdb
+C:\Users\atamoghlanov_j\Desktop\Lesson 17. CQRS and MediatR\ECommerce\Infrastructure\ECommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Application.dll
+C:\Users\atamoghlanov_j\Desktop\Lesson 17. CQRS and MediatR\ECommerce\Infrastructure\ECommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Domain.dll
+C:\Users\atamoghlanov_j\Desktop\Lesson 17. CQRS and MediatR\ECommerce\Infrastructure\ECommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Application.pdb
+C:\Users\atamoghlanov_j\Desktop\Lesson 17. CQRS and MediatR\ECommerce\Infrastructure\ECommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Domain.pdb
+C:\Users\atamoghlanov_j\Desktop\Lesson 17. CQRS and MediatR\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\atamoghlanov_j\Desktop\Lesson 17. CQRS and MediatR\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atamoghlanov_j\Desktop\Lesson 17. CQRS and MediatR\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\atamoghlanov_j\Desktop\Lesson 17. CQRS and MediatR\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.AssemblyInfo.cs
+C:\Users\atamoghlanov_j\Desktop\Lesson 17. CQRS and MediatR\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\atamoghlanov_j\Desktop\Lesson 17. CQRS and MediatR\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerc.B0B31267.Up2Date
+C:\Users\atamoghlanov_j\Desktop\Lesson 17. CQRS and MediatR\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.dll
+C:\Users\atamoghlanov_j\Desktop\Lesson 17. CQRS and MediatR\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\refint\ECommerce.Infrastructure.dll
+C:\Users\atamoghlanov_j\Desktop\Lesson 17. CQRS and MediatR\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.pdb
+C:\Users\atamoghlanov_j\Desktop\Lesson 17. CQRS and MediatR\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ref\ECommerce.Infrastructure.dll
+C:\Users\hasan\source\repos\ECommerce\Infrastructure\ECommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Infrastructure.deps.json
+C:\Users\hasan\source\repos\ECommerce\Infrastructure\ECommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Infrastructure.dll
+C:\Users\hasan\source\repos\ECommerce\Infrastructure\ECommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Infrastructure.pdb
+C:\Users\hasan\source\repos\ECommerce\Infrastructure\ECommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Application.dll
+C:\Users\hasan\source\repos\ECommerce\Infrastructure\ECommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Domain.dll
+C:\Users\hasan\source\repos\ECommerce\Infrastructure\ECommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Application.pdb
+C:\Users\hasan\source\repos\ECommerce\Infrastructure\ECommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Domain.pdb
+C:\Users\hasan\source\repos\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\hasan\source\repos\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasan\source\repos\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\hasan\source\repos\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.AssemblyInfo.cs
+C:\Users\hasan\source\repos\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\hasan\source\repos\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerc.B0B31267.Up2Date
+C:\Users\hasan\source\repos\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.dll
+C:\Users\hasan\source\repos\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\refint\ECommerce.Infrastructure.dll
+C:\Users\hasan\source\repos\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.pdb
+C:\Users\hasan\source\repos\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ref\ECommerce.Infrastructure.dll

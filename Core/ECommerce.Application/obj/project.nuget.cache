@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "grSMEB/NbZzEv4YTc/Ezh2KANnad9GKtz/gfAQaC7xot3FS4b48RVrxNCI6HWFGQxPTmxnI8a0LFN2m7KmjmiQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hasan\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\ECommerce.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hasan\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
