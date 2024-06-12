@@ -1,10 +1,10 @@
-﻿using ECommerce.Application.Services;
-using ECommerce.Infrastructure.Services;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+﻿using System.Text;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.DependencyInjection;
+using ECommerce.Application.Services;
 using Microsoft.IdentityModel.Tokens;
-using System.Text;
+using ECommerce.Infrastructure.Services;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace ECommerce.Infrastructure;
 
@@ -19,10 +19,8 @@ public static class RegisterServices
 
         // Add Auth JWT
         builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-            .AddJwtBearer(options =>
-            {
-                options.TokenValidationParameters = new TokenValidationParameters()
-                {
+            .AddJwtBearer(options => {
+                options.TokenValidationParameters = new TokenValidationParameters() {
                     ValidateIssuer = true,
                     ValidateAudience = true,
                     ValidateLifetime = true,

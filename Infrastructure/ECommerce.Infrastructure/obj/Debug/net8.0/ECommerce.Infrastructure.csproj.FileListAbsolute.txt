@@ -49,3 +49,4 @@ C:\Users\hasan\source\repos\ECommerce\Infrastructure\ECommerce.Infrastructure\ob
 C:\Users\hasan\source\repos\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\refint\ECommerce.Infrastructure.dll
 C:\Users\hasan\source\repos\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.pdb
 C:\Users\hasan\source\repos\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ref\ECommerce.Infrastructure.dll
+C:\Users\hasan\source\repos\ECommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net8.0\ECommerce.Infrastructure.sourcelink.json

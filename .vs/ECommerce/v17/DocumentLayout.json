@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{8AD48219-B401-4F85-97E8-DE7987A29E05}|Presentation\\ECommerce.WebApi\\ECommerce.WebApi.csproj|solutionrelative:presentation\\ecommerce.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02E15EC2-3839-4FEA-A1F1-F1FD4220FB0B}|Infrastructure\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj|c:\\users\\hasan\\source\\repos\\ecommerce\\infrastructure\\ecommerce.infrastructure\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02E15EC2-3839-4FEA-A1F1-F1FD4220FB0B}|Infrastructure\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj|solutionrelative:infrastructure\\ecommerce.infrastructure\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8AD48219-B401-4F85-97E8-DE7987A29E05}|Presentation\\ECommerce.WebApi\\ECommerce.WebApi.csproj|c:\\users\\hasan\\source\\repos\\ecommerce\\presentation\\ecommerce.webapi\\ecommerce.webapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{8AD48219-B401-4F85-97E8-DE7987A29E05}|Presentation\\ECommerce.WebApi\\ECommerce.WebApi.csproj|solutionrelative:presentation\\ecommerce.webapi\\ecommerce.webapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E59C5386-C638-4CC3-B377-78D5685DC0F1}|Infrastructure\\ECommerce.Persistence\\ECommerce.Persistence.csproj|c:\\users\\hasan\\source\\repos\\ecommerce\\infrastructure\\ecommerce.persistence\\repositories\\appuser\\readappuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E59C5386-C638-4CC3-B377-78D5685DC0F1}|Infrastructure\\ECommerce.Persistence\\ECommerce.Persistence.csproj|solutionrelative:infrastructure\\ecommerce.persistence\\repositories\\appuser\\readappuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,15 +38,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "C:\\Users\\hasan\\source\\repos\\ECommerce\\Infrastructure\\ECommerce.Infrastructure\\Services\\EmailService.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\ECommerce.Infrastructure\\Services\\EmailService.cs",
-              "ToolTip": "C:\\Users\\hasan\\source\\repos\\ECommerce\\Infrastructure\\ECommerce.Infrastructure\\Services\\EmailService.cs",
-              "RelativeToolTip": "Infrastructure\\ECommerce.Infrastructure\\Services\\EmailService.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAcwA4AAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "ReadAppUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hasan\\source\\repos\\ECommerce\\Infrastructure\\ECommerce.Persistence\\Repositories\\AppUser\\ReadAppUserRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ECommerce.Persistence\\Repositories\\AppUser\\ReadAppUserRepository.cs",
+              "ToolTip": "C:\\Users\\hasan\\source\\repos\\ECommerce\\Infrastructure\\ECommerce.Persistence\\Repositories\\AppUser\\ReadAppUserRepository.cs",
+              "RelativeToolTip": "Infrastructure\\ECommerce.Persistence\\Repositories\\AppUser\\ReadAppUserRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwB8AAABXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T06:56:08.315Z",
+              "WhenOpened": "2024-06-12T08:09:50.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ECommerce.WebApi",
+              "DocumentMoniker": "C:\\Users\\hasan\\source\\repos\\ECommerce\\Presentation\\ECommerce.WebApi\\ECommerce.WebApi.csproj",
+              "RelativeDocumentMoniker": "Presentation\\ECommerce.WebApi\\ECommerce.WebApi.csproj",
+              "ToolTip": "C:\\Users\\hasan\\source\\repos\\ECommerce\\Presentation\\ECommerce.WebApi\\ECommerce.WebApi.csproj",
+              "RelativeToolTip": "Presentation\\ECommerce.WebApi\\ECommerce.WebApi.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-12T07:48:38.981Z",
               "EditorCaption": ""
             },
             {
@@ -53,7 +69,7 @@
               "RelativeDocumentMoniker": "presentation\\ECommerce.WebApi\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\hasan\\source\\repos\\ECommerce\\presentation\\ECommerce.WebApi\\Controllers\\AuthController.cs",
               "RelativeToolTip": "presentation\\ECommerce.WebApi\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAJEAAAAAAAAAAAAqwJsAAABmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAH8AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T16:49:43.072Z",
               "EditorCaption": ""

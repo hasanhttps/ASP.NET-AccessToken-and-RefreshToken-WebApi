@@ -55,3 +55,4 @@ C:\Users\hasan\source\repos\ECommerce\Infrastructure\ECommerce.Persistence\obj\D
 C:\Users\hasan\source\repos\ECommerce\Infrastructure\ECommerce.Persistence\obj\Debug\net8.0\ECommerce.Persistence.pdb
 C:\Users\hasan\source\repos\ECommerce\Infrastructure\ECommerce.Persistence\obj\Debug\net8.0\ECommerce.Persistence.genruntimeconfig.cache
 C:\Users\hasan\source\repos\ECommerce\Infrastructure\ECommerce.Persistence\obj\Debug\net8.0\ref\ECommerce.Persistence.dll
+C:\Users\hasan\source\repos\ECommerce\Infrastructure\ECommerce.Persistence\obj\Debug\net8.0\ECommerce.Persistence.sourcelink.json

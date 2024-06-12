@@ -31,3 +31,4 @@ C:\Users\hasan\source\repos\ECommerce\Core\ECommerce.Domain\obj\Debug\net8.0\ECo
 C:\Users\hasan\source\repos\ECommerce\Core\ECommerce.Domain\obj\Debug\net8.0\refint\ECommerce.Domain.dll
 C:\Users\hasan\source\repos\ECommerce\Core\ECommerce.Domain\obj\Debug\net8.0\ECommerce.Domain.pdb
 C:\Users\hasan\source\repos\ECommerce\Core\ECommerce.Domain\obj\Debug\net8.0\ref\ECommerce.Domain.dll
+C:\Users\hasan\source\repos\ECommerce\Core\ECommerce.Domain\obj\Debug\net8.0\ECommerce.Domain.sourcelink.json

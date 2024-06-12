@@ -36,6 +36,18 @@ namespace ECommerce.Persistence.Migrations
                     b.Property<string>("Address")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool?>("ConfirmEmail")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("ConfirmEmailToken")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("ConfirmEmailTokenCreateTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("ConfirmEmailTokenExpireTime")
+                        .HasColumnType("datetime2");
+
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 

@@ -445,3 +445,4 @@ C:\Users\hasan\source\repos\ECommerce\Presentation\ECommerce.WebApi\obj\Debug\ne
 C:\Users\hasan\source\repos\ECommerce\Presentation\ECommerce.WebApi\obj\Debug\net8.0\ECommerce.WebApi.pdb
 C:\Users\hasan\source\repos\ECommerce\Presentation\ECommerce.WebApi\obj\Debug\net8.0\ECommerce.WebApi.genruntimeconfig.cache
 C:\Users\hasan\source\repos\ECommerce\Presentation\ECommerce.WebApi\obj\Debug\net8.0\ref\ECommerce.WebApi.dll
+C:\Users\hasan\source\repos\ECommerce\Presentation\ECommerce.WebApi\obj\Debug\net8.0\ECommerce.WebApi.sourcelink.json

@@ -43,3 +43,4 @@ C:\Users\hasan\source\repos\ECommerce\Core\ECommerce.Application\obj\Debug\net8.
 C:\Users\hasan\source\repos\ECommerce\Core\ECommerce.Application\obj\Debug\net8.0\refint\ECommerce.Application.dll
 C:\Users\hasan\source\repos\ECommerce\Core\ECommerce.Application\obj\Debug\net8.0\ECommerce.Application.pdb
 C:\Users\hasan\source\repos\ECommerce\Core\ECommerce.Application\obj\Debug\net8.0\ref\ECommerce.Application.dll
+C:\Users\hasan\source\repos\ECommerce\Core\ECommerce.Application\obj\Debug\net8.0\ECommerce.Application.sourcelink.json

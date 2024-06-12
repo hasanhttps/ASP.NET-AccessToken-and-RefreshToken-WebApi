@@ -1,10 +1,10 @@
-﻿using ECommerce.Application.Repositories;
+﻿using Microsoft.EntityFrameworkCore;
 using ECommerce.Application.Services;
+using ECommerce.Persistence.Services;
 using ECommerce.Persistence.DbContexts;
 using ECommerce.Persistence.Repositories;
-using ECommerce.Persistence.Services;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using ECommerce.Application.Repositories;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace ECommerce.Persistence;
@@ -13,8 +13,7 @@ public static class RegisterServices
 {
     public static void AddPersistenceRegister(this IServiceCollection services)
     {
-        services.AddDbContext<ECommerceDbContext>(options =>
-        {
+        services.AddDbContext<ECommerceDbContext>(options => {
             ConfigurationBuilder configurationBuilder = new();
             var builder = configurationBuilder.AddJsonFile("appsettings.json").Build();
 

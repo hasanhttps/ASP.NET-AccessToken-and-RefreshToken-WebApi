@@ -46,6 +46,9 @@ public class AuthController : ControllerBase {
         if (user is null)
             return BadRequest("Invalid username");
 
+        if (user.ConfirmEmail == false)
+            return BadRequest("Email not confirmed");
+
         using var hmac = new HMACSHA256(user.PasswordSalt);
         var computedHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(loginDTO.Password));
 
@@ -102,9 +105,9 @@ public class AuthController : ControllerBase {
     }
 
 
-    // Add User Method
+    // Register Method
     [HttpPost("[action]")]
-    public async Task<IActionResult> AddUser([FromBody] AppUserDTO appUserDTO) {
+    public async Task<IActionResult> Register([FromBody] AppUserDTO appUserDTO) {
 
         var user = await _readAppUserRepository.GetUserByUserName(appUserDTO.UserName);
         if (user is not null)
@@ -117,12 +120,39 @@ public class AuthController : ControllerBase {
             Email = appUserDTO.Email,
             PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(appUserDTO.Password)),
             PasswordSalt = hmac.Key,
-            Role = appUserDTO.Role
+            Role = appUserDTO.Role,
+            ConfirmEmail = false
         };
+
+        var confirmEmailToken = _tokenService.CreateConfirmEmailToken();
+        var actionUrl = $@"https://localhost:5046/api/Auth/ConfirmEmail?token={confirmEmailToken.Token}";
+        var result = await _emailService.sendMailAsync(appUserDTO.Email, "Confirm Your Email", $"Reset your password by <a href='{actionUrl}'>clicking here</a>.", true);
+
+        newUser.ConfirmEmailToken = confirmEmailToken.Token;
+        newUser.ConfirmEmailTokenCreateTime = confirmEmailToken.CreateTime;
+        newUser.ConfirmEmailTokenExpireTime = confirmEmailToken.ExpireTime;
 
         await _writeAppUserRepository.AddAsync(newUser);
         await _writeAppUserRepository.SaveChangeAsync();
-        return Ok();
+        return Ok(new { ActionUrl = actionUrl});
+    }
+
+    // Confirm Email Method
+    [HttpPost("[action]")]
+    public async Task<IActionResult> ConfirmEmail([FromQuery] string token) {
+
+        var user = await _readAppUserRepository.GetUserByConfirmEmailToken(token);
+        if (user is null)
+            return BadRequest("User not found");
+
+        if (user.ConfirmEmailTokenExpireTime < DateTime.UtcNow)
+            return BadRequest("ConfirmEmailToken expired");
+
+        user.ConfirmEmail = true;
+
+        await _writeAppUserRepository.UpdateAsync(user);
+        await _writeAppUserRepository.SaveChangeAsync();
+        return Ok("Email Confirmed");
     }
 
     [Authorize(Roles = "Admin")]
@@ -141,10 +171,7 @@ public class AuthController : ControllerBase {
         return Ok(user);
     }
 
-
-
-
-    // Forgote Passowrd
+    // Forgot Password
     [HttpPost("[action]")]
     public async Task<IActionResult> ForgotPassword([FromBody] ForgotPasswordDTO forgotPasswordDTO) {
 
@@ -166,6 +193,7 @@ public class AuthController : ControllerBase {
         return Ok(new { actionUrl = actionUrl });
     }
 
+    // Reset Password
     [HttpPost("[action]")]
     public async Task<IActionResult> ResetPassword([FromQuery] string token, [FromBody] ResetPasswordDTO resetPasswordDTO) {
      
